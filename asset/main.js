@@ -1,7 +1,12 @@
-var win = document.getElementsById("taskmenu");
+var win = document.getElementById("taskmenu");
+var menu = document.getElementById("startItems");
 
 win.addEventListener('click', e =>
 {
     console.log("clicked")
-    document.getElementsById("startItems").hidden = false;
+    if (menu.hidden == true)
+        menu.hidden = false;
+    else
+        menu.hidden = true;
+    
 })
