@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(5, 18, 90);
+    background-image: url("bg.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width: 0%;
+    overflow: hidden;
+}
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.taskbarRight{
+    position: absolute;
+    justify-content: right;
+    right: 0;
+    margin-top: 2px;
+}
