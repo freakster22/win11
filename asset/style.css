@@ -12,14 +12,27 @@ body{
 }
 .taskbar{
     background-color: #f3f3f3;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     bottom: 0;
     right: 0;
     display: flex;
     justify-content: center;
     height: 3rem;
+    z-index: -1;
     
+}
+.win{
+    border: none;
+    position: absolute;
+    left: 36.5rem;
+    
+    margin-top: 2px;
+    cursor: pointer;
+    z-index: 1;
+}
+win:active{
+    background-color: #0f0f0f;
 }
 .taskbarRight{
     position: absolute;

@@ -1,4 +1,4 @@
-var win = document.getElementById("taskmenu");
+var win = document.getElementById("win");
 var menu = document.getElementById("startItems");
 
 win.addEventListener('click', e =>
